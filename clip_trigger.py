@@ -3,6 +3,7 @@ import time
 import subprocess
 from obswebsocket import obsws, requests
 from pynput import keyboard
+import psutil
 import sys
 
 # === CONFIG ===
@@ -24,10 +25,21 @@ CLIP_PATH = "C:\\RocketClips"
 def ensure_clip_folder():
     os.makedirs(CLIP_PATH, exist_ok=True)
 
+def is_obs_running():
+    for proc in psutil.process_iter(['name']):
+        if proc.info['name'] and 'obs64.exe' in proc.info['name']:
+            return True
+    return False
+
 def launch_obs():
+    if is_obs_running():
+        print("⚠️ OBS is already running. Skipping launch.")
+        return True
+
     if not os.path.exists(OBS_EXE):
         print("❌ OBS not found at:", OBS_EXE)
         return False
+
     print("🚀 Launching OBS...")
     subprocess.Popen([OBS_EXE] + OBS_ARGS, cwd=OBS_EXE_DIR)
     return True

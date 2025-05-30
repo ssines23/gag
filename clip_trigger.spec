@@ -1,29 +1,22 @@
-# clip_trigger.spec
-from pathlib import Path
+# -*- mode: python ; coding: utf-8 -*-
+
 from PyInstaller.utils.hooks import collect_submodules
+from pathlib import Path
 
 block_cipher = None
 
-# Path to your Python entry point
-script_path = 'clip_trigger.py'
-
-# OBS portable directory to bundle
-obs_data = ('obs-portable', 'obs-portable')
-
-# Collect any dynamic modules (for packages like obswebsocket)
-hidden_imports = collect_submodules('obswebsocket')
-
 a = Analysis(
-    [script_path],
+    ['clip_trigger.py'],
     pathex=[],
     binaries=[],
-    datas=[obs_data],
-    hiddenimports=hidden_imports,
+    datas=[('obs-portable', 'obs-portable')],
+    hiddenimports=collect_submodules('obswebsocket'),
     hookspath=[],
+    hooksconfig={},
     runtime_hooks=[],
     excludes=[],
-    win_no_prefer_redirects=False,
-    win_private_assemblies=False,
+    noarchive=False,
+    optimize=0,
     cipher=block_cipher,
 )
 
@@ -34,12 +27,13 @@ exe = EXE(
     a.scripts,
     [],
     exclude_binaries=True,
-    name='RocketClipper',
+    name='gag',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
     upx=True,
-    console=True,  # Set to False to hide the terminal window
+    console=True,
+    icon='gag.ico',  # 🔧 Fixed icon syntax
 )
 
 coll = COLLECT(
@@ -50,5 +44,5 @@ coll = COLLECT(
     strip=False,
     upx=True,
     upx_exclude=[],
-    name='RocketClipper'
+    name='gag',
 )
