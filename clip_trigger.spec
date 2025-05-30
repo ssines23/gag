@@ -1,15 +1,18 @@
 # -*- mode: python ; coding: utf-8 -*-
 
 from PyInstaller.utils.hooks import collect_submodules
-from pathlib import Path
 
 block_cipher = None
 
 a = Analysis(
-    ['clip_trigger.py'],
+    ['gag.py'],  # Your new entry point
     pathex=[],
     binaries=[],
-    datas=[('obs-portable', 'obs-portable')],
+    datas=[
+        ('obs-portable', 'obs-portable'),  # OBS folder
+        ('f8_sound.wav', '.'),             # Sound file in root
+        ('README.txt', '.'),               # Optional: Usage notes
+    ],
     hiddenimports=collect_submodules('obswebsocket'),
     hookspath=[],
     hooksconfig={},
@@ -33,7 +36,7 @@ exe = EXE(
     strip=False,
     upx=True,
     console=True,
-    icon='gag.ico',  # 🔧 Fixed icon syntax
+    icon='gag.ico',
 )
 
 coll = COLLECT(

@@ -4,3 +4,4 @@ obs-portable/data
 dist/
 build/
 obs-portable/config/obs-studio/
+__pycache__/

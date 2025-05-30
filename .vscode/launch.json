@@ -2,10 +2,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "Python: Run clip_trigger.py",
+            "name": "Python: Run gag.py",
             "type": "python",
             "request": "launch",
-            "program": "${workspaceFolder}/clip_trigger.py",
+            "program": "${workspaceFolder}/gag.py",
             "console": "integratedTerminal",
             "justMyCode": true
         }
