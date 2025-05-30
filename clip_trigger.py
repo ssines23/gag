@@ -3,9 +3,16 @@ import time
 import subprocess
 from obswebsocket import obsws, requests
 from pynput import keyboard
+import sys
 
 # === CONFIG ===
-OBS_ROOT = os.path.abspath("obs-portable")
+
+if getattr(sys, 'frozen', False):
+    BASE_DIR = sys._MEIPASS
+else:
+    BASE_DIR = os.path.abspath(".")
+
+OBS_ROOT = os.path.join(BASE_DIR, "obs-portable")
 OBS_EXE_DIR = os.path.join(OBS_ROOT, "bin", "64bit")
 OBS_EXE = os.path.join(OBS_EXE_DIR, "obs64.exe")
 OBS_ARGS = ["--startreplaybuffer", "--minimize-to-tray"]

@@ -1,3 +1,5 @@
 obs-portable/bin
 obs-portable/obs-plugins
 obs-portable/data
+dist/
+build/
