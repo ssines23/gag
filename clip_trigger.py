@@ -5,9 +5,13 @@ from obswebsocket import obsws, requests
 from pynput import keyboard
 import psutil
 import sys
+import pygame
+import time
+import traceback
+
+last_save_time = 0
 
 # === CONFIG ===
-
 if getattr(sys, 'frozen', False):
     BASE_DIR = sys._MEIPASS
 else:
@@ -21,6 +25,14 @@ OBS_WS_PORT = 4455
 OBS_WS_PASSWORD = "clip123"
 CLIP_PATH = "C:\\RocketClips"
 # ==============
+
+def play_sound():
+    try:
+        pygame.mixer.init()
+        pygame.mixer.music.load("f8_sound.wav")
+        pygame.mixer.music.play()
+    except Exception as e:
+        print(f"⚠️ Failed to play sound: {e}")
 
 def ensure_clip_folder():
     os.makedirs(CLIP_PATH, exist_ok=True)
@@ -58,6 +70,17 @@ def connect_ws(retries=10):
     print("❌ Failed to connect to OBS WebSocket")
     return None
 
+
+def safe_obs_call(call_fn):
+    try:
+        return call_fn()
+    except Exception as e:
+        print("⚠️ OBS WebSocket call failed:")
+        print(f"Type: {type(e).__name__}")
+        print(f"Message: {e}")
+        traceback.print_exc()
+        return None
+
 def main():
     ensure_clip_folder()
     launch_obs()
@@ -66,10 +89,17 @@ def main():
         return
 
     def on_press(key):
+        global last_save_time
         try:
             if key == keyboard.Key.f8:
+                now = time.time()
+                if now - last_save_time < 5:
+                    print("⏳ Save cooldown active. Try again shortly.")
+                    return
                 print("🎬 F8 pressed — saving replay...")
-                ws.call(requests.SaveReplayBuffer())
+                last_save_time = now
+                play_sound()
+                safe_obs_call(lambda: ws.call(requests.SaveReplayBuffer()))
                 print("✅ Replay saved successfully!")
             elif key == keyboard.Key.f10:
                 print("🛑 F10 pressed — exiting...")
@@ -84,4 +114,9 @@ def main():
         listener.join()
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(f"❌ An unexpected error occurred: {e}")
+        traceback.print_exc()
+
