@@ -29,10 +29,12 @@ CLIP_PATH = "C:\\RocketClips"
 def play_sound():
     try:
         pygame.mixer.init()
-        pygame.mixer.music.load("f8_sound.wav")
+        sound_path = os.path.join(BASE_DIR, "f8_sound.wav")  # Use BASE_DIR!
+        pygame.mixer.music.load(sound_path)
         pygame.mixer.music.play()
     except Exception as e:
         print(f"⚠️ Failed to play sound: {e}")
+
 
 def ensure_clip_folder():
     os.makedirs(CLIP_PATH, exist_ok=True)

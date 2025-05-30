@@ -9,7 +9,10 @@ a = Analysis(
     ['clip_trigger.py'],
     pathex=[],
     binaries=[],
-    datas=[('obs-portable', 'obs-portable')],
+    datas=[
+        ('obs-portable', 'obs-portable'),
+        ('f8_sound.wav', '.'),  # Include sound file
+    ],
     hiddenimports=collect_submodules('obswebsocket'),
     hookspath=[],
     hooksconfig={},
@@ -33,7 +36,7 @@ exe = EXE(
     strip=False,
     upx=True,
     console=True,
-    icon='gag.ico',  # 🔧 Fixed icon syntax
+    icon='gag.ico',
 )
 
 coll = COLLECT(
