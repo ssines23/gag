@@ -3,3 +3,4 @@ obs-portable/obs-plugins
 obs-portable/data
 dist/
 build/
+obs-portable/config/obs-studio/
