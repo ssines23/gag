@@ -1,0 +1,418 @@
+20:39:25.867: [Safe Mode] Unclean shutdown detected!
+20:39:29.595: [Safe Mode] User elected to launch normally.
+20:39:29.595: Command Line Arguments: --startreplaybuffer --minimize-to-tray
+20:39:29.595: CPU Name: 13th Gen Intel(R) Core(TM) i9-13950HX
+20:39:29.595: CPU Speed: 2419MHz
+20:39:29.595: Physical Cores: 24, Logical Cores: 32
+20:39:29.595: Physical Memory: 65136MB Total, 35372MB Free
+20:39:29.596: Windows Version: 10.0 Build 26100 (release: 24H2; revision: 4061; 64-bit)
+20:39:29.596: Running as administrator: false
+20:39:29.596: Windows 10/11 Gaming Features:
+20:39:29.596: 	Game DVR: On
+20:39:29.596: 	Game Mode: Probably On (no reg key set)
+20:39:29.596: Sec. Software Status:
+20:39:29.597: 	Microsoft Defender Antivirus: enabled (AV)
+20:39:29.597: 	Windows Firewall: enabled (FW)
+20:39:29.597: Current Date/Time: 2025-05-29, 20:39:29
+20:39:29.597: Browser Hardware Acceleration: true
+20:39:29.597: Hide OBS windows from screen capture: false
+20:39:29.597: Qt Version: 6.6.3 (runtime), 6.6.3 (compiled)
+20:39:29.597: Portable mode: true
+20:39:29.651: OBS 31.0.3 (64-bit, windows)
+20:39:29.651: ---------------------------------
+20:39:29.662: ---------------------------------
+20:39:29.662: audio settings reset:
+20:39:29.662: 	samples per sec: 48000
+20:39:29.662: 	speakers:        2
+20:39:29.662: 	max buffering:   960 milliseconds
+20:39:29.662: 	buffering type:  dynamically increasing
+20:39:29.663: ---------------------------------
+20:39:29.663: Initializing D3D11...
+20:39:29.663: Available Video Adapters: 
+20:39:29.671: 	Adapter 0: NVIDIA RTX 5000 Ada Generation Laptop GPU
+20:39:29.671: 	  Dedicated VRAM: 16829644800 (15.7 GiB)
+20:39:29.671: 	  Shared VRAM:    34150187008 (31.8 GiB)
+20:39:29.671: 	  PCI ID:         10de:2730
+20:39:29.671: 	  HAGS Status:    Enabled (Default: No, Driver status: Supported)
+20:39:29.671: 	  Driver Version: 32.0.15.6624
+20:39:29.672: 	  output 0:
+20:39:29.672: 	    name=
+20:39:29.672: 	    pos={0, 0}
+20:39:29.672: 	    size={1920, 1200}
+20:39:29.672: 	    attached=true
+20:39:29.672: 	    refresh=60
+20:39:29.672: 	    bits_per_color=8
+20:39:29.672: 	    space=RGB_FULL_G22_NONE_P709
+20:39:29.672: 	    primaries=[r=(0.659180, 0.331055), g=(0.282227, 0.632812), b=(0.144531, 0.057617), wp=(0.313477, 0.329102)]
+20:39:29.672: 	    relative_gamut_area=[709=1.152933, P3=0.849909, 2020=0.609753]
+20:39:29.672: 	    sdr_white_nits=80
+20:39:29.672: 	    nit_range=[min=0.062900, max=400.000000, max_full_frame=400.000000]
+20:39:29.672: 	    dpi=120 (125%)
+20:39:29.672: 	    id=\\?\DISPLAY#AUOAB9B#4&192a791f&0&UID8388688#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+20:39:29.672: 	    alt_id=\\.\DISPLAY1
+20:39:29.672: 	  output 1:
+20:39:29.672: 	    name=B32FP1K
+20:39:29.672: 	    pos={-1920, 0}
+20:39:29.672: 	    size={1920, 1080}
+20:39:29.672: 	    attached=true
+20:39:29.672: 	    refresh=60
+20:39:29.672: 	    bits_per_color=8
+20:39:29.672: 	    space=RGB_FULL_G22_NONE_P709
+20:39:29.672: 	    primaries=[r=(0.657227, 0.325195), g=(0.280273, 0.668945), b=(0.131836, 0.020508), wp=(0.312500, 0.328125)]
+20:39:29.672: 	    relative_gamut_area=[709=1.318411, P3=0.971895, 2020=0.697269]
+20:39:29.672: 	    sdr_white_nits=80
+20:39:29.672: 	    nit_range=[min=0.000000, max=400.000000, max_full_frame=276.793701]
+20:39:29.672: 	    dpi=96 (100%)
+20:39:29.672: 	    id=\\?\DISPLAY#JLK3211#5&306922cf&1&UID4354#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+20:39:29.672: 	    alt_id=\\.\DISPLAY5
+20:39:29.672: 	Adapter 1: Intel(R) UHD Graphics
+20:39:29.672: 	  Dedicated VRAM: 134217728 (0.1 GiB)
+20:39:29.672: 	  Shared VRAM:    34150187008 (31.8 GiB)
+20:39:29.672: 	  PCI ID:         8086:a788
+20:39:29.672: 	  HAGS Status:    Disabled (Default: No, Driver status: Unsupported)
+20:39:29.672: 	  Driver Version: 32.0.101.6127
+20:39:29.672: Loading up D3D11 on adapter NVIDIA RTX 5000 Ada Generation Laptop GPU (0)
+20:39:29.897: D3D11 loaded successfully, feature level used: b000
+20:39:29.897: DXGI increase maximum frame latency success
+20:39:29.897: Hardware-Accelerated GPU Scheduling enabled on adapter!
+20:39:29.897: D3D11 GPU priority setup failed (not admin?)
+20:39:29.947: ---------------------------------
+20:39:29.947: video settings reset:
+20:39:29.947: 	base resolution:   1920x1080
+20:39:29.947: 	output resolution: 1280x720
+20:39:29.947: 	downscale filter:  Bicubic
+20:39:29.947: 	fps:               30/1
+20:39:29.947: 	format:            NV12
+20:39:29.947: 	YUV mode:          Rec. 709/Partial
+20:39:29.947: NV12 texture support enabled
+20:39:29.947: P010 texture support not available
+20:39:29.959: Audio monitoring device:
+20:39:29.959: 	name: Default
+20:39:29.959: 	id: default
+20:39:29.960: ---------------------------------
+20:39:29.961: No AJA devices found, skipping loading AJA UI plugin
+20:39:29.961: Failed to initialize module 'aja-output-ui.dll'
+20:39:29.962: No AJA devices found, skipping loading AJA plugin
+20:39:29.962: Failed to initialize module 'aja.dll'
+20:39:29.962: Skipping module '../../obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+20:39:29.964: [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+20:39:29.964: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+20:39:29.965: Failed to load 'en-US' text for module: 'decklink-output-ui.dll'
+20:39:29.979: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+20:39:29.979: Failed to initialize module 'decklink.dll'
+20:39:29.985: Skipping module '../../obs-plugins/64bit/libcef.dll', not an OBS plugin
+20:39:29.985: Skipping module '../../obs-plugins/64bit/libEGL.dll', not an OBS plugin
+20:39:29.985: Skipping module '../../obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+20:39:29.986: [NVIDIA Audio Effects:] NVIDIA denoiser disabled, redistributable not found or could not be loaded.
+20:39:29.986: Failed to get NVVideoEffects.dll version info size
+20:39:29.987: [NVIDIA VIDEO FX]: FX disabled, redistributable not found or could not be loaded.
+20:39:29.993: [obs-browser]: Version 2.24.6
+20:39:29.993: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.145.7+g2b7d20b+chromium-127.0.6533.120 (compiled)
+20:39:30.154: [obs-nvenc] NVENC version: 12.2 (compiled) / 12.2 (driver), CUDA driver version: 12.70, AV1 supported: true
+20:39:30.628: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.6 | RPC Version: 1)
+20:39:30.628: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.6.3 | Qt version (run-time): 6.6.3
+20:39:30.628: [obs-websocket] [obs_module_load] Linked ASIO Version: 103100
+20:39:30.628: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+20:39:30.634: [obs-websocket] [obs_module_load] Module loaded.
+20:39:30.637: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+20:39:30.642: ---------------------------------
+20:39:30.642:   Loaded Modules:
+20:39:30.642:     win-wasapi.dll
+20:39:30.642:     win-dshow.dll
+20:39:30.642:     win-capture.dll
+20:39:30.642:     vlc-video.dll
+20:39:30.642:     text-freetype2.dll
+20:39:30.642:     rtmp-services.dll
+20:39:30.642:     obs-x264.dll
+20:39:30.642:     obs-websocket.dll
+20:39:30.642:     obs-webrtc.dll
+20:39:30.642:     obs-vst.dll
+20:39:30.642:     obs-transitions.dll
+20:39:30.642:     obs-text.dll
+20:39:30.642:     obs-qsv11.dll
+20:39:30.642:     obs-outputs.dll
+20:39:30.642:     obs-nvenc.dll
+20:39:30.642:     obs-filters.dll
+20:39:30.642:     obs-ffmpeg.dll
+20:39:30.642:     obs-browser.dll
+20:39:30.642:     nv-filters.dll
+20:39:30.642:     image-source.dll
+20:39:30.642:     frontend-tools.dll
+20:39:30.642:     decklink-output-ui.dll
+20:39:30.642:     decklink-captions.dll
+20:39:30.642:     coreaudio-encoder.dll
+20:39:30.643: ---------------------------------
+20:39:30.643: [obs-websocket] [obs_module_post_load] WebSocket server is enabled, starting...
+20:39:30.643: [obs-websocket] [WebSocketServer::Start] Not locked to IPv4 bindings
+20:39:30.643: [obs-websocket] [WebSocketServer::ServerRunner] IO thread started.
+20:39:30.649: [obs-websocket] [WebSocketServer::Start] Server started successfully on port 4455. Possible connect address: 192.168.1.42
+20:39:30.649: ---------------------------------
+20:39:30.649: Available Encoders:
+20:39:30.649:   Video Encoders:
+20:39:30.649: 	- ffmpeg_svt_av1 (SVT-AV1)
+20:39:30.649: 	- ffmpeg_aom_av1 (AOM AV1)
+20:39:30.649: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+20:39:30.649: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+20:39:30.649: 	- obs_nvenc_av1_tex (NVIDIA NVENC AV1)
+20:39:30.649: 	- obs_qsv11_v2 (QuickSync H.264)
+20:39:30.649: 	- obs_qsv11_hevc (QuickSync HEVC)
+20:39:30.649: 	- obs_x264 (x264)
+20:39:30.649:   Audio Encoders:
+20:39:30.649: 	- ffmpeg_aac (FFmpeg AAC)
+20:39:30.649: 	- ffmpeg_opus (FFmpeg Opus)
+20:39:30.649: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+20:39:30.649: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+20:39:30.649: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+20:39:30.649: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+20:39:30.649: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+20:39:30.649: ==== Startup complete ===============================================
+20:39:30.710: All scene data cleared
+20:39:30.710: ------------------------------------------------
+20:39:30.712: [win-wasapi: 'Desktop Audio'] update settings:
+20:39:30.712: 	device id: default
+20:39:30.712: 	use device timing: 1
+20:39:30.712: [Loaded global audio device]: 'Desktop Audio'
+20:39:30.712: [win-wasapi: 'Mic/Aux'] update settings:
+20:39:30.712: 	device id: default
+20:39:30.712: 	use device timing: 0
+20:39:30.712: [Loaded global audio device]: 'Mic/Aux'
+20:39:30.731: WASAPI: Device 'B32FP1K (NVIDIA High Definition Audio)' [48000 Hz] initialized (source: Desktop Audio)
+20:39:30.838: [obs-websocket] [WebSocketServer::onOpen] New WebSocket client has connected from [::1]:65428
+20:39:31.271: Switched to scene 'Scene'
+20:39:31.271: ------------------------------------------------
+20:39:31.271: Loaded scenes:
+20:39:31.271: - scene 'Scene':
+20:39:31.271:     - source: 'RL' (game_capture)
+20:39:31.271: ------------------------------------------------
+20:39:31.272: WASAPI: Device 'Microphone Array (2- Intel® Smart Sound Technology for Digital Microphones)' [48000 Hz] initialized (source: Mic/Aux)
+20:39:31.294: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:39:31.327: [game-capture: 'RL'] capture stopped
+20:39:33.328: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:39:33.361: [game-capture: 'RL'] capture stopped
+20:39:35.363: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:39:35.394: [game-capture: 'RL'] capture stopped
+20:39:37.394: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:39:37.427: [game-capture: 'RL'] capture stopped
+20:39:39.428: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:39:39.460: [game-capture: 'RL'] capture stopped
+20:39:41.478: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:39:41.494: [game-capture: 'RL'] capture stopped
+20:39:43.494: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:39:43.527: [game-capture: 'RL'] capture stopped
+20:39:45.527: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:39:45.561: [game-capture: 'RL'] capture stopped
+20:39:47.561: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:39:47.594: [game-capture: 'RL'] capture stopped
+20:39:49.594: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:39:49.627: [game-capture: 'RL'] capture stopped
+20:39:51.627: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:39:51.661: [game-capture: 'RL'] capture stopped
+20:39:53.661: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:39:53.694: [game-capture: 'RL'] capture stopped
+20:39:55.694: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:39:55.727: [game-capture: 'RL'] capture stopped
+20:39:57.729: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:39:57.761: [game-capture: 'RL'] capture stopped
+20:39:59.761: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:39:59.794: [game-capture: 'RL'] capture stopped
+20:40:01.795: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:01.827: [game-capture: 'RL'] capture stopped
+20:40:03.828: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:03.862: [game-capture: 'RL'] capture stopped
+20:40:05.861: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:05.894: [game-capture: 'RL'] capture stopped
+20:40:07.894: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:07.927: [game-capture: 'RL'] capture stopped
+20:40:09.928: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:09.960: [game-capture: 'RL'] capture stopped
+20:40:11.961: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:11.994: [game-capture: 'RL'] capture stopped
+20:40:13.994: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:14.027: [game-capture: 'RL'] capture stopped
+20:40:16.028: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:16.061: [game-capture: 'RL'] capture stopped
+20:40:18.061: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:18.094: [game-capture: 'RL'] capture stopped
+20:40:20.095: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:20.129: [game-capture: 'RL'] capture stopped
+20:40:20.862:   OpenType support missing for "Open Sans", script 12
+20:40:20.862:   OpenType support missing for "Arial", script 12
+20:40:20.862:   OpenType support missing for "Tahoma", script 12
+20:40:20.863:   OpenType support missing for "MS UI Gothic", script 12
+20:40:20.863:   OpenType support missing for "SimSun", script 12
+20:40:20.863:   OpenType support missing for "Segoe UI Emoji", script 12
+20:40:20.864:   OpenType support missing for "Segoe UI Symbol", script 12
+20:40:20.966:   OpenType support missing for "Open Sans", script 11
+20:40:20.966:   OpenType support missing for "Arial", script 11
+20:40:20.966:   OpenType support missing for "Tahoma", script 11
+20:40:20.966:   OpenType support missing for "MS UI Gothic", script 11
+20:40:20.966:   OpenType support missing for "SimSun", script 11
+20:40:20.966:   OpenType support missing for "Segoe UI Emoji", script 11
+20:40:20.966:   OpenType support missing for "Segoe UI Symbol", script 11
+20:40:20.967:   OpenType support missing for "Open Sans", script 20
+20:40:20.967:   OpenType support missing for "Arial", script 20
+20:40:20.967:   OpenType support missing for "Tahoma", script 20
+20:40:20.967:   OpenType support missing for "MS UI Gothic", script 20
+20:40:20.967:   OpenType support missing for "SimSun", script 20
+20:40:20.967:   OpenType support missing for "Segoe UI Emoji", script 20
+20:40:20.967:   OpenType support missing for "Segoe UI Symbol", script 20
+20:40:22.136: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:22.160: [game-capture: 'RL'] capture stopped
+20:40:24.162: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:24.194: [game-capture: 'RL'] capture stopped
+20:40:26.194: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:26.228: [game-capture: 'RL'] capture stopped
+20:40:28.228: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:28.262: [game-capture: 'RL'] capture stopped
+20:40:30.261: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:30.294: [game-capture: 'RL'] capture stopped
+20:40:32.298: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:32.327: [game-capture: 'RL'] capture stopped
+20:40:34.340: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:34.361: [game-capture: 'RL'] capture stopped
+20:40:36.361: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:36.394: [game-capture: 'RL'] capture stopped
+20:40:38.396: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:38.427: [game-capture: 'RL'] capture stopped
+20:40:40.427: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:40.461: [game-capture: 'RL'] capture stopped
+20:40:42.462: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:42.495: [game-capture: 'RL'] capture stopped
+20:40:44.497: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:44.527: [game-capture: 'RL'] capture stopped
+20:40:46.529: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:46.562: [game-capture: 'RL'] capture stopped
+20:40:48.561: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:48.595: [game-capture: 'RL'] capture stopped
+20:40:50.595: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:50.628: [game-capture: 'RL'] capture stopped
+20:40:52.628: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:52.661: [game-capture: 'RL'] capture stopped
+20:40:54.661: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:54.694: [game-capture: 'RL'] capture stopped
+20:40:56.695: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:56.727: [game-capture: 'RL'] capture stopped
+20:40:58.728: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:40:58.762: [game-capture: 'RL'] capture stopped
+20:41:00.761: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:00.796: [game-capture: 'RL'] capture stopped
+20:41:02.795: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:02.827: [game-capture: 'RL'] capture stopped
+20:41:04.827: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:04.861: [game-capture: 'RL'] capture stopped
+20:41:06.862: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:06.894: [game-capture: 'RL'] capture stopped
+20:41:08.898: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:08.927: [game-capture: 'RL'] capture stopped
+20:41:10.930: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:10.961: [game-capture: 'RL'] capture stopped
+20:41:12.964: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:12.994: [game-capture: 'RL'] capture stopped
+20:41:14.994: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:15.027: [game-capture: 'RL'] capture stopped
+20:41:17.027: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:17.062: [game-capture: 'RL'] capture stopped
+20:41:19.061: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:19.094: [game-capture: 'RL'] capture stopped
+20:41:21.094: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:21.127: [game-capture: 'RL'] capture stopped
+20:41:23.128: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:23.161: [game-capture: 'RL'] capture stopped
+20:41:25.161: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:25.194: [game-capture: 'RL'] capture stopped
+20:41:27.194: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:27.228: [game-capture: 'RL'] capture stopped
+20:41:29.227: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:29.261: [game-capture: 'RL'] capture stopped
+20:41:31.262: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:31.294: [game-capture: 'RL'] capture stopped
+20:41:33.294: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:33.327: [game-capture: 'RL'] capture stopped
+20:41:35.327: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:35.361: [game-capture: 'RL'] capture stopped
+20:41:35.520: Settings changed (outputs)
+20:41:35.520: ------------------------------------------------
+20:41:37.361: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:37.394: [game-capture: 'RL'] capture stopped
+20:41:39.394: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:41:39.427: [game-capture: 'RL'] capture stopped
+20:41:39.851: ==== Shutting down ==================================================
+20:41:39.861: WASAPI: Device 'B32FP1K (NVIDIA High Definition Audio)' Terminated
+20:41:39.962: WASAPI: Device 'Microphone Array (2- Intel® Smart Sound Technology for Digital Microphones)' Terminated
+20:41:40.374: All scene data cleared
+20:41:40.374: ------------------------------------------------
+20:41:40.545: [obs-websocket] [obs_module_unload] Shutting down...
+20:41:40.546: [obs-websocket] [WebSocketServer::onClose] WebSocket client `[::1]:65428` has disconnected with code `1001` and reason: Server stopping.
+20:41:40.546: [obs-websocket] [WebSocketServer::ServerRunner] IO thread exited.
+20:41:40.556: [obs-websocket] [WebSocketServer::Stop] Server stopped successfully
+20:41:40.557: Tried to call obs_frontend_remove_event_callback with no callbacks!
+20:41:40.557: [obs-websocket] [obs_module_unload] Finished shutting down.
+20:41:40.560: [Scripting] Total detached callbacks: 0
+20:41:40.560: Freeing OBS context data
+20:41:40.641: == Profiler Results =============================
+20:41:40.641: run_program_init: 5540.72 ms
+20:41:40.641:  ┣OBSApp::AppInit: 20.01 ms
+20:41:40.641:  ┃ ┗OBSApp::InitLocale: 0.891 ms
+20:41:40.641:  ┗OBSApp::OBSInit: 1763.1 ms
+20:41:40.641:    ┣obs_startup: 2.132 ms
+20:41:40.641:    ┗OBSBasic::OBSInit: 1707.21 ms
+20:41:40.641:      ┣OBSBasic::InitBasicConfig: 10.899 ms
+20:41:40.641:      ┣OBSBasic::ResetAudio: 0.157 ms
+20:41:40.641:      ┣OBSBasic::ResetVideo: 297.33 ms
+20:41:40.641:      ┃ ┗obs_init_graphics: 284.589 ms
+20:41:40.641:      ┃   ┗shader compilation: 45.921 ms
+20:41:40.641:      ┣OBSBasic::InitOBSCallbacks: 0.006 ms
+20:41:40.641:      ┣OBSBasic::InitHotkeys: 0.019 ms
+20:41:40.641:      ┣obs_load_all_modules2: 682.393 ms
+20:41:40.641:      ┃ ┣obs_init_module(aja-output-ui.dll): 0.114 ms
+20:41:40.641:      ┃ ┣obs_init_module(aja.dll): 0.082 ms
+20:41:40.641:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 1.463 ms
+20:41:40.641:      ┃ ┣obs_init_module(decklink-captions.dll): 0 ms
+20:41:40.641:      ┃ ┣obs_init_module(decklink-output-ui.dll): 0 ms
+20:41:40.641:      ┃ ┣obs_init_module(decklink.dll): 13.865 ms
+20:41:40.641:      ┃ ┣obs_init_module(frontend-tools.dll): 4.384 ms
+20:41:40.641:      ┃ ┣obs_init_module(image-source.dll): 0.005 ms
+20:41:40.641:      ┃ ┣obs_init_module(nv-filters.dll): 1.042 ms
+20:41:40.641:      ┃ ┣obs_init_module(obs-browser.dll): 0.477 ms
+20:41:40.641:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 0.626 ms
+20:41:40.641:      ┃ ┣obs_init_module(obs-filters.dll): 0.029 ms
+20:41:40.641:      ┃ ┣obs_init_module(obs-nvenc.dll): 158.169 ms
+20:41:40.641:      ┃ ┃ ┗nvenc_check: 158.163 ms
+20:41:40.641:      ┃ ┣obs_init_module(obs-outputs.dll): 0.006 ms
+20:41:40.641:      ┃ ┣obs_init_module(obs-qsv11.dll): 469.107 ms
+20:41:40.641:      ┃ ┣obs_init_module(obs-text.dll): 0.198 ms
+20:41:40.641:      ┃ ┣obs_init_module(obs-transitions.dll): 0.006 ms
+20:41:40.641:      ┃ ┣obs_init_module(obs-vst.dll): 0.002 ms
+20:41:40.641:      ┃ ┣obs_init_module(obs-webrtc.dll): 0.005 ms
+20:41:40.641:      ┃ ┣obs_init_module(obs-websocket.dll): 5.859 ms
+20:41:40.641:      ┃ ┣obs_init_module(obs-x264.dll): 0.001 ms
+20:41:40.641:      ┃ ┣obs_init_module(rtmp-services.dll): 1.047 ms
+20:41:40.641:      ┃ ┣obs_init_module(text-freetype2.dll): 0.047 ms
+20:41:40.641:      ┃ ┣obs_init_module(vlc-video.dll): 0.025 ms
+20:41:40.641:      ┃ ┣obs_init_module(win-capture.dll): 0.979 ms
+20:41:40.641:      ┃ ┣obs_init_module(win-dshow.dll): 0.878 ms
+20:41:40.641:      ┃ ┣obs_init_module(win-wasapi.dll): 1.74 ms
+20:41:40.641:      ┃ ┗reset_win32_symbol_paths: 0.183 ms
+20:41:40.641:      ┣OBSBasic::InitService: 1.428 ms
+20:41:40.641:      ┣OBSBasic::ResetOutputs: 0.196 ms
+20:41:40.641:      ┣OBSBasic::CreateHotkeys: 0.028 ms
+20:41:40.641:      ┣OBSBasic::InitPrimitives: 0.084 ms
+20:41:40.641:      ┗OBSBasic::Load: 620.975 ms
+20:41:40.641: obs_hotkey_thread(25 ms): min=0.002 ms, median=0.013 ms, max=9.016 ms, 99th percentile=0.546 ms, 100% below 25 ms
+20:41:40.641: audio_thread(Audio): min=0.012 ms, median=0.029 ms, max=0.995 ms, 99th percentile=0.133 ms
+20:41:40.641: obs_graphics_thread(33.3333 ms): min=0.071 ms, median=0.243 ms, max=542.361 ms, 99th percentile=7.916 ms, 99.9744% below 33.333 ms
+20:41:40.641:  ┣tick_sources: min=0.001 ms, median=0.006 ms, max=542.238 ms, 99th percentile=7.523 ms
+20:41:40.641:  ┣output_frame: min=0.055 ms, median=0.173 ms, max=3.475 ms, 99th percentile=1.032 ms
+20:41:40.641:  ┃ ┗gs_context(video->graphics): min=0.055 ms, median=0.173 ms, max=3.474 ms, 99th percentile=1.031 ms
+20:41:40.641:  ┃   ┣render_video: min=0.002 ms, median=0.01 ms, max=3.296 ms, 99th percentile=0.035 ms
+20:41:40.641:  ┃   ┃ ┗render_main_texture: min=0.001 ms, median=0.008 ms, max=3.293 ms, 99th percentile=0.029 ms
+20:41:40.641:  ┃   ┗gs_flush: min=0.048 ms, median=0.161 ms, max=2.128 ms, 99th percentile=0.999 ms
+20:41:40.641:  ┗render_displays: min=0 ms, median=0.065 ms, max=6.42 ms, 99th percentile=0.408 ms
+20:41:40.641: OBSBasicSettings::LoadThemeList: min=0.227 ms, median=0 ms, max=0.236 ms, 99th percentile=0.236 ms
+20:41:40.641: OBSBasic::ResetOutputs: 0.778 ms
+20:41:40.641: =================================================
+20:41:40.641: == Profiler Time Between Calls ==================
+20:41:40.641: obs_hotkey_thread(25 ms): min=23.9 ms, median=25.552 ms, max=34.541 ms, 45.179% within ±2% of 25 ms (0.39116% lower, 54.4299% higher)
+20:41:40.641: obs_graphics_thread(33.3333 ms): min=24.301 ms, median=33.333 ms, max=542.367 ms, 84.7475% within ±2% of 33.333 ms (7.7416% lower, 7.51089% higher)
+20:41:40.641: =================================================
+20:41:40.849: Number of memory leaks: 0

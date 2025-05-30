@@ -1,0 +1,318 @@
+20:32:36.878: [Safe Mode] Unclean shutdown detected!
+20:32:39.738: [Safe Mode] User elected to launch normally.
+20:32:39.739: Command Line Arguments: --startreplaybuffer --minimize-to-tray
+20:32:39.739: CPU Name: 13th Gen Intel(R) Core(TM) i9-13950HX
+20:32:39.739: CPU Speed: 2419MHz
+20:32:39.739: Physical Cores: 24, Logical Cores: 32
+20:32:39.739: Physical Memory: 65136MB Total, 35273MB Free
+20:32:39.739: Windows Version: 10.0 Build 26100 (release: 24H2; revision: 4061; 64-bit)
+20:32:39.739: Running as administrator: false
+20:32:39.739: Windows 10/11 Gaming Features:
+20:32:39.739: 	Game DVR: On
+20:32:39.739: 	Game Mode: Probably On (no reg key set)
+20:32:39.740: Sec. Software Status:
+20:32:39.740: 	Microsoft Defender Antivirus: enabled (AV)
+20:32:39.740: 	Windows Firewall: enabled (FW)
+20:32:39.741: Current Date/Time: 2025-05-29, 20:32:39
+20:32:39.741: Browser Hardware Acceleration: true
+20:32:39.741: Hide OBS windows from screen capture: false
+20:32:39.741: Qt Version: 6.6.3 (runtime), 6.6.3 (compiled)
+20:32:39.741: Portable mode: true
+20:32:39.791: OBS 31.0.3 (64-bit, windows)
+20:32:39.791: ---------------------------------
+20:32:39.815: ---------------------------------
+20:32:39.815: audio settings reset:
+20:32:39.815: 	samples per sec: 48000
+20:32:39.815: 	speakers:        2
+20:32:39.815: 	max buffering:   960 milliseconds
+20:32:39.815: 	buffering type:  dynamically increasing
+20:32:39.816: ---------------------------------
+20:32:39.816: Initializing D3D11...
+20:32:39.816: Available Video Adapters: 
+20:32:39.824: 	Adapter 0: NVIDIA RTX 5000 Ada Generation Laptop GPU
+20:32:39.824: 	  Dedicated VRAM: 16829644800 (15.7 GiB)
+20:32:39.824: 	  Shared VRAM:    34150187008 (31.8 GiB)
+20:32:39.824: 	  PCI ID:         10de:2730
+20:32:39.824: 	  HAGS Status:    Enabled (Default: No, Driver status: Supported)
+20:32:39.825: 	  Driver Version: 32.0.15.6624
+20:32:39.825: 	  output 0:
+20:32:39.825: 	    name=
+20:32:39.825: 	    pos={0, 0}
+20:32:39.825: 	    size={1920, 1200}
+20:32:39.825: 	    attached=true
+20:32:39.825: 	    refresh=60
+20:32:39.825: 	    bits_per_color=8
+20:32:39.825: 	    space=RGB_FULL_G22_NONE_P709
+20:32:39.825: 	    primaries=[r=(0.659180, 0.331055), g=(0.282227, 0.632812), b=(0.144531, 0.057617), wp=(0.313477, 0.329102)]
+20:32:39.825: 	    relative_gamut_area=[709=1.152933, P3=0.849909, 2020=0.609753]
+20:32:39.825: 	    sdr_white_nits=80
+20:32:39.825: 	    nit_range=[min=0.062900, max=400.000000, max_full_frame=400.000000]
+20:32:39.825: 	    dpi=120 (125%)
+20:32:39.825: 	    id=\\?\DISPLAY#AUOAB9B#4&192a791f&0&UID8388688#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+20:32:39.825: 	    alt_id=\\.\DISPLAY1
+20:32:39.825: 	  output 1:
+20:32:39.825: 	    name=B32FP1K
+20:32:39.825: 	    pos={-1920, 0}
+20:32:39.825: 	    size={1920, 1080}
+20:32:39.825: 	    attached=true
+20:32:39.825: 	    refresh=60
+20:32:39.825: 	    bits_per_color=8
+20:32:39.825: 	    space=RGB_FULL_G22_NONE_P709
+20:32:39.825: 	    primaries=[r=(0.657227, 0.325195), g=(0.280273, 0.668945), b=(0.131836, 0.020508), wp=(0.312500, 0.328125)]
+20:32:39.825: 	    relative_gamut_area=[709=1.318411, P3=0.971895, 2020=0.697269]
+20:32:39.825: 	    sdr_white_nits=80
+20:32:39.825: 	    nit_range=[min=0.000000, max=400.000000, max_full_frame=276.793701]
+20:32:39.825: 	    dpi=96 (100%)
+20:32:39.825: 	    id=\\?\DISPLAY#JLK3211#5&306922cf&1&UID4354#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}
+20:32:39.825: 	    alt_id=\\.\DISPLAY5
+20:32:39.826: 	Adapter 1: Intel(R) UHD Graphics
+20:32:39.826: 	  Dedicated VRAM: 134217728 (0.1 GiB)
+20:32:39.826: 	  Shared VRAM:    34150187008 (31.8 GiB)
+20:32:39.826: 	  PCI ID:         8086:a788
+20:32:39.826: 	  HAGS Status:    Disabled (Default: No, Driver status: Unsupported)
+20:32:39.826: 	  Driver Version: 32.0.101.6127
+20:32:39.826: Loading up D3D11 on adapter NVIDIA RTX 5000 Ada Generation Laptop GPU (0)
+20:32:40.030: D3D11 loaded successfully, feature level used: b000
+20:32:40.030: DXGI increase maximum frame latency success
+20:32:40.030: Hardware-Accelerated GPU Scheduling enabled on adapter!
+20:32:40.030: D3D11 GPU priority setup failed (not admin?)
+20:32:40.078: ---------------------------------
+20:32:40.078: video settings reset:
+20:32:40.078: 	base resolution:   1920x1080
+20:32:40.078: 	output resolution: 1280x720
+20:32:40.078: 	downscale filter:  Bicubic
+20:32:40.078: 	fps:               30/1
+20:32:40.078: 	format:            NV12
+20:32:40.078: 	YUV mode:          Rec. 709/Partial
+20:32:40.079: NV12 texture support enabled
+20:32:40.079: P010 texture support not available
+20:32:40.079: Audio monitoring device:
+20:32:40.079: 	name: Default
+20:32:40.079: 	id: default
+20:32:40.080: ---------------------------------
+20:32:40.081: No AJA devices found, skipping loading AJA UI plugin
+20:32:40.081: Failed to initialize module 'aja-output-ui.dll'
+20:32:40.082: No AJA devices found, skipping loading AJA plugin
+20:32:40.082: Failed to initialize module 'aja.dll'
+20:32:40.082: Skipping module '../../obs-plugins/64bit/chrome_elf.dll', not an OBS plugin
+20:32:40.083: [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+20:32:40.084: Failed to load 'en-US' text for module: 'decklink-captions.dll'
+20:32:40.084: Failed to load 'en-US' text for module: 'decklink-output-ui.dll'
+20:32:40.090: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+20:32:40.090: Failed to initialize module 'decklink.dll'
+20:32:40.096: Skipping module '../../obs-plugins/64bit/libcef.dll', not an OBS plugin
+20:32:40.096: Skipping module '../../obs-plugins/64bit/libEGL.dll', not an OBS plugin
+20:32:40.097: Skipping module '../../obs-plugins/64bit/libGLESv2.dll', not an OBS plugin
+20:32:40.097: [NVIDIA Audio Effects:] NVIDIA denoiser disabled, redistributable not found or could not be loaded.
+20:32:40.097: Failed to get NVVideoEffects.dll version info size
+20:32:40.098: [NVIDIA VIDEO FX]: FX disabled, redistributable not found or could not be loaded.
+20:32:40.104: [obs-browser]: Version 2.24.6
+20:32:40.104: [obs-browser]: CEF Version 127.0.6533.120 (runtime), 127.145.7+g2b7d20b+chromium-127.0.6533.120 (compiled)
+20:32:40.249: [obs-nvenc] NVENC version: 12.2 (compiled) / 12.2 (driver), CUDA driver version: 12.70, AV1 supported: true
+20:32:40.770: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.5.6 | RPC Version: 1)
+20:32:40.770: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.6.3 | Qt version (run-time): 6.6.3
+20:32:40.770: [obs-websocket] [obs_module_load] Linked ASIO Version: 103100
+20:32:40.770: DEPRECATION: obs_frontend_get_global_config is deprecated. Read from global or user configuration explicitly instead.
+20:32:40.777: [obs-websocket] [obs_module_load] Module loaded.
+20:32:40.781: [vlc-video]: Couldn't find VLC installation, VLC video source disabled
+20:32:40.787: ---------------------------------
+20:32:40.787:   Loaded Modules:
+20:32:40.787:     win-wasapi.dll
+20:32:40.787:     win-dshow.dll
+20:32:40.787:     win-capture.dll
+20:32:40.787:     vlc-video.dll
+20:32:40.787:     text-freetype2.dll
+20:32:40.787:     rtmp-services.dll
+20:32:40.787:     obs-x264.dll
+20:32:40.787:     obs-websocket.dll
+20:32:40.787:     obs-webrtc.dll
+20:32:40.787:     obs-vst.dll
+20:32:40.787:     obs-transitions.dll
+20:32:40.787:     obs-text.dll
+20:32:40.787:     obs-qsv11.dll
+20:32:40.787:     obs-outputs.dll
+20:32:40.787:     obs-nvenc.dll
+20:32:40.787:     obs-filters.dll
+20:32:40.787:     obs-ffmpeg.dll
+20:32:40.787:     obs-browser.dll
+20:32:40.787:     nv-filters.dll
+20:32:40.787:     image-source.dll
+20:32:40.787:     frontend-tools.dll
+20:32:40.787:     decklink-output-ui.dll
+20:32:40.787:     decklink-captions.dll
+20:32:40.787:     coreaudio-encoder.dll
+20:32:40.787: ---------------------------------
+20:32:40.787: [obs-websocket] [obs_module_post_load] WebSocket server is enabled, starting...
+20:32:40.787: [obs-websocket] [WebSocketServer::Start] Not locked to IPv4 bindings
+20:32:40.787: [obs-websocket] [WebSocketServer::ServerRunner] IO thread started.
+20:32:40.791: [obs-websocket] [WebSocketServer::Start] Server started successfully on port 4455. Possible connect address: 192.168.1.42
+20:32:40.791: ---------------------------------
+20:32:40.791: Available Encoders:
+20:32:40.791:   Video Encoders:
+20:32:40.791: 	- ffmpeg_svt_av1 (SVT-AV1)
+20:32:40.791: 	- ffmpeg_aom_av1 (AOM AV1)
+20:32:40.791: 	- obs_nvenc_h264_tex (NVIDIA NVENC H.264)
+20:32:40.791: 	- obs_nvenc_hevc_tex (NVIDIA NVENC HEVC)
+20:32:40.791: 	- obs_nvenc_av1_tex (NVIDIA NVENC AV1)
+20:32:40.791: 	- obs_qsv11_v2 (QuickSync H.264)
+20:32:40.791: 	- obs_qsv11_hevc (QuickSync HEVC)
+20:32:40.791: 	- obs_x264 (x264)
+20:32:40.791:   Audio Encoders:
+20:32:40.791: 	- ffmpeg_aac (FFmpeg AAC)
+20:32:40.791: 	- ffmpeg_opus (FFmpeg Opus)
+20:32:40.791: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+20:32:40.791: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+20:32:40.791: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+20:32:40.791: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+20:32:40.791: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+20:32:40.791: ==== Startup complete ===============================================
+20:32:40.814: [obs-websocket] [WebSocketServer::onOpen] New WebSocket client has connected from [::1]:65191
+20:32:40.819: All scene data cleared
+20:32:40.819: ------------------------------------------------
+20:32:40.821: [win-wasapi: 'Desktop Audio'] update settings:
+20:32:40.821: 	device id: default
+20:32:40.821: 	use device timing: 1
+20:32:40.822: [Loaded global audio device]: 'Desktop Audio'
+20:32:40.822: [win-wasapi: 'Mic/Aux'] update settings:
+20:32:40.822: 	device id: default
+20:32:40.822: 	use device timing: 0
+20:32:40.822: [Loaded global audio device]: 'Mic/Aux'
+20:32:40.842: WASAPI: Device 'B32FP1K (NVIDIA High Definition Audio)' [48000 Hz] initialized (source: Desktop Audio)
+20:32:40.984: WASAPI: Device 'Microphone Array (2- Intel® Smart Sound Technology for Digital Microphones)' [48000 Hz] initialized (source: Mic/Aux)
+20:32:41.034: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+20:32:41.034: 
+20:32:41.580: Switched to scene 'Scene'
+20:32:41.580: ------------------------------------------------
+20:32:41.580: Loaded scenes:
+20:32:41.580: - scene 'Scene':
+20:32:41.580:     - source: 'RL' (game_capture)
+20:32:41.580: ------------------------------------------------
+20:32:41.581: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:32:41.614: [game-capture: 'RL'] capture stopped
+20:32:43.615: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:32:43.647: [game-capture: 'RL'] capture stopped
+20:32:45.650: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:32:45.681: [game-capture: 'RL'] capture stopped
+20:32:47.681: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:32:47.714: [game-capture: 'RL'] capture stopped
+20:32:49.714: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:32:49.747: [game-capture: 'RL'] capture stopped
+20:32:51.750: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:32:51.780: [game-capture: 'RL'] capture stopped
+20:32:53.041:   OpenType support missing for "Open Sans", script 12
+20:32:53.041:   OpenType support missing for "Arial", script 12
+20:32:53.041:   OpenType support missing for "Tahoma", script 12
+20:32:53.042:   OpenType support missing for "MS UI Gothic", script 12
+20:32:53.043:   OpenType support missing for "SimSun", script 12
+20:32:53.043:   OpenType support missing for "Segoe UI Emoji", script 12
+20:32:53.044:   OpenType support missing for "Segoe UI Symbol", script 12
+20:32:53.134:   OpenType support missing for "Open Sans", script 11
+20:32:53.134:   OpenType support missing for "Arial", script 11
+20:32:53.134:   OpenType support missing for "Tahoma", script 11
+20:32:53.135:   OpenType support missing for "MS UI Gothic", script 11
+20:32:53.135:   OpenType support missing for "SimSun", script 11
+20:32:53.135:   OpenType support missing for "Segoe UI Emoji", script 11
+20:32:53.135:   OpenType support missing for "Segoe UI Symbol", script 11
+20:32:53.135:   OpenType support missing for "Open Sans", script 20
+20:32:53.135:   OpenType support missing for "Arial", script 20
+20:32:53.135:   OpenType support missing for "Tahoma", script 20
+20:32:53.135:   OpenType support missing for "MS UI Gothic", script 20
+20:32:53.136:   OpenType support missing for "SimSun", script 20
+20:32:53.136:   OpenType support missing for "Segoe UI Emoji", script 20
+20:32:53.136:   OpenType support missing for "Segoe UI Symbol", script 20
+20:32:53.781: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:32:53.814: [game-capture: 'RL'] capture stopped
+20:32:55.814: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:32:55.849: [game-capture: 'RL'] capture stopped
+20:32:57.847: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:32:57.881: [game-capture: 'RL'] capture stopped
+20:32:59.592: Settings changed (outputs)
+20:32:59.592: ------------------------------------------------
+20:32:59.881: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:32:59.914: [game-capture: 'RL'] capture stopped
+20:33:01.914: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:33:01.947: [game-capture: 'RL'] capture stopped
+20:33:03.481: Settings changed (outputs)
+20:33:03.481: ------------------------------------------------
+20:33:03.947: [game-capture: 'RL'] attempting to hook process: RocketLeague.exe
+20:33:03.980: [game-capture: 'RL'] capture stopped
+20:33:05.238: ==== Shutting down ==================================================
+20:33:05.249: WASAPI: Device 'B32FP1K (NVIDIA High Definition Audio)' Terminated
+20:33:05.358: WASAPI: Device 'Microphone Array (2- Intel® Smart Sound Technology for Digital Microphones)' Terminated
+20:33:05.761: All scene data cleared
+20:33:05.761: ------------------------------------------------
+20:33:05.932: [obs-websocket] [obs_module_unload] Shutting down...
+20:33:05.933: [obs-websocket] [WebSocketServer::onClose] WebSocket client `[::1]:65191` has disconnected with code `1001` and reason: Server stopping.
+20:33:05.933: [obs-websocket] [WebSocketServer::ServerRunner] IO thread exited.
+20:33:05.933: [obs-websocket] [WebSocketServer::Stop] Server stopped successfully
+20:33:05.933: Tried to call obs_frontend_remove_event_callback with no callbacks!
+20:33:05.933: [obs-websocket] [obs_module_unload] Finished shutting down.
+20:33:05.937: [Scripting] Total detached callbacks: 0
+20:33:05.937: Freeing OBS context data
+20:33:06.045: == Profiler Results =============================
+20:33:06.045: run_program_init: 7954.32 ms
+20:33:06.045:  ┣OBSApp::AppInit: 3139.19 ms
+20:33:06.045:  ┃ ┗OBSApp::InitLocale: 0.951 ms
+20:33:06.045:  ┗OBSApp::OBSInit: 1930.14 ms
+20:33:06.045:    ┣obs_startup: 2.079 ms
+20:33:06.045:    ┗OBSBasic::OBSInit: 1877.3 ms
+20:33:06.045:      ┣OBSBasic::InitBasicConfig: 23.161 ms
+20:33:06.045:      ┣OBSBasic::ResetAudio: 0.181 ms
+20:33:06.045:      ┣OBSBasic::ResetVideo: 264.621 ms
+20:33:06.045:      ┃ ┗obs_init_graphics: 263.585 ms
+20:33:06.045:      ┃   ┗shader compilation: 45.612 ms
+20:33:06.045:      ┣OBSBasic::InitOBSCallbacks: 0.004 ms
+20:33:06.045:      ┣OBSBasic::InitHotkeys: 0.019 ms
+20:33:06.045:      ┣obs_load_all_modules2: 706.566 ms
+20:33:06.045:      ┃ ┣obs_init_module(aja-output-ui.dll): 0.12 ms
+20:33:06.045:      ┃ ┣obs_init_module(aja.dll): 0.071 ms
+20:33:06.045:      ┃ ┣obs_init_module(coreaudio-encoder.dll): 1.223 ms
+20:33:06.045:      ┃ ┣obs_init_module(decklink-captions.dll): 0 ms
+20:33:06.045:      ┃ ┣obs_init_module(decklink-output-ui.dll): 0 ms
+20:33:06.045:      ┃ ┣obs_init_module(decklink.dll): 5.354 ms
+20:33:06.045:      ┃ ┣obs_init_module(frontend-tools.dll): 4.717 ms
+20:33:06.045:      ┃ ┣obs_init_module(image-source.dll): 0.006 ms
+20:33:06.045:      ┃ ┣obs_init_module(nv-filters.dll): 1.081 ms
+20:33:06.045:      ┃ ┣obs_init_module(obs-browser.dll): 0.46 ms
+20:33:06.045:      ┃ ┣obs_init_module(obs-ffmpeg.dll): 0.725 ms
+20:33:06.045:      ┃ ┣obs_init_module(obs-filters.dll): 0.024 ms
+20:33:06.045:      ┃ ┣obs_init_module(obs-nvenc.dll): 141.549 ms
+20:33:06.045:      ┃ ┃ ┗nvenc_check: 141.543 ms
+20:33:06.045:      ┃ ┣obs_init_module(obs-outputs.dll): 0.006 ms
+20:33:06.045:      ┃ ┣obs_init_module(obs-qsv11.dll): 513.673 ms
+20:33:06.045:      ┃ ┣obs_init_module(obs-text.dll): 0.478 ms
+20:33:06.045:      ┃ ┣obs_init_module(obs-transitions.dll): 0.008 ms
+20:33:06.045:      ┃ ┣obs_init_module(obs-vst.dll): 0.005 ms
+20:33:06.045:      ┃ ┣obs_init_module(obs-webrtc.dll): 0.006 ms
+20:33:06.045:      ┃ ┣obs_init_module(obs-websocket.dll): 6.91 ms
+20:33:06.045:      ┃ ┣obs_init_module(obs-x264.dll): 0.001 ms
+20:33:06.045:      ┃ ┣obs_init_module(rtmp-services.dll): 1.196 ms
+20:33:06.045:      ┃ ┣obs_init_module(text-freetype2.dll): 0.058 ms
+20:33:06.045:      ┃ ┣obs_init_module(vlc-video.dll): 0.042 ms
+20:33:06.045:      ┃ ┣obs_init_module(win-capture.dll): 1.19 ms
+20:33:06.045:      ┃ ┣obs_init_module(win-dshow.dll): 0.946 ms
+20:33:06.045:      ┃ ┣obs_init_module(win-wasapi.dll): 1.789 ms
+20:33:06.045:      ┃ ┗reset_win32_symbol_paths: 0.191 ms
+20:33:06.045:      ┣OBSBasic::InitService: 1.129 ms
+20:33:06.045:      ┣OBSBasic::ResetOutputs: 0.222 ms
+20:33:06.045:      ┣OBSBasic::CreateHotkeys: 0.049 ms
+20:33:06.045:      ┣OBSBasic::InitPrimitives: 0.11 ms
+20:33:06.045:      ┗OBSBasic::Load: 786.9 ms
+20:33:06.045: obs_hotkey_thread(25 ms): min=0.002 ms, median=0.012 ms, max=1.72 ms, 99th percentile=0.412 ms, 100% below 25 ms
+20:33:06.045: audio_thread(Audio): min=0.008 ms, median=0.029 ms, max=0.875 ms, 99th percentile=0.101 ms
+20:33:06.045: obs_graphics_thread(33.3333 ms): min=0.071 ms, median=0.243 ms, max=731.405 ms, 99th percentile=8.001 ms, 99.8675% below 33.333 ms
+20:33:06.045:  ┣tick_sources: min=0.002 ms, median=0.006 ms, max=731.167 ms, 99th percentile=7.333 ms
+20:33:06.045:  ┣output_frame: min=0.055 ms, median=0.167 ms, max=1.147 ms, 99th percentile=0.865 ms
+20:33:06.045:  ┃ ┗gs_context(video->graphics): min=0.054 ms, median=0.166 ms, max=1.146 ms, 99th percentile=0.865 ms
+20:33:06.045:  ┃   ┣render_video: min=0.003 ms, median=0.01 ms, max=0.457 ms, 99th percentile=0.04 ms
+20:33:06.045:  ┃   ┃ ┗render_main_texture: min=0.003 ms, median=0.007 ms, max=0.455 ms, 99th percentile=0.029 ms
+20:33:06.045:  ┃   ┗gs_flush: min=0.048 ms, median=0.154 ms, max=1.136 ms, 99th percentile=0.851 ms
+20:33:06.045:  ┗render_displays: min=0 ms, median=0.068 ms, max=5.033 ms, 99th percentile=0.44 ms
+20:33:06.045: OBSBasicSettings::LoadThemeList: 0.185 ms
+20:33:06.045: OBSBasic::ResetOutputs: min=0.097 ms, median=0 ms, max=0.12 ms, 99th percentile=0.12 ms
+20:33:06.045: =================================================
+20:33:06.045: == Profiler Time Between Calls ==================
+20:33:06.045: obs_hotkey_thread(25 ms): min=24.05 ms, median=25.562 ms, max=30.412 ms, 43.9765% within ±2% of 25 ms (0.0979432% lower, 55.9256% higher)
+20:33:06.045: obs_graphics_thread(33.3333 ms): min=1.919 ms, median=33.333 ms, max=731.41 ms, 96.817% within ±2% of 33.333 ms (1.59151% lower, 1.59151% higher)
+20:33:06.045: =================================================
+20:33:06.249: Number of memory leaks: 0

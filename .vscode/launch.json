@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Run clip_trigger.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/clip_trigger.py",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
