@@ -1,9 +1,10 @@
-from clipper import run_clipper
+# gag.py
+
+from ui import GagUI
+import threading
+from clipper import run_clipper  # Ensure this is defined in your clipper.py
 
 if __name__ == "__main__":
-    try:
-        run_clipper()
-    except Exception as e:
-        import traceback
-        print(f"❌ Fatal error: {e}")
-        traceback.print_exc()
+    threading.Thread(target=run_clipper, daemon=True).start()
+    ui = GagUI()
+    ui.run()
