@@ -1,15 +1,17 @@
 # ui.py
 
 import tkinter as tk
-from clipper import save_clip
-from clipper import disconnect_obs
+from clipper import Clipper
+import threading
 
 class GagUI:
     def __init__(self):
+        self.clipper = Clipper()  # instantiate once
         self.root = tk.Tk()
         self.root.title("GaG")
         self.root.geometry("300x200")
         self.create_widgets()
+        threading.Thread(target=self.clipper.run, daemon=True).start()
 
     def create_widgets(self):
         self.status_label = tk.Label(self.root, text="Ready", fg="green")
@@ -22,11 +24,11 @@ class GagUI:
         self.quit_button.pack(pady=5)
 
     def on_clip(self):
-        save_clip()
+        self.clipper.save_clip()
         self.status_label.config(text="Clip Saved!", fg="blue")
 
     def on_quit(self):
-        disconnect_obs()  
+        self.clipper.disconnect()
         self.root.quit()
 
     def run(self):
